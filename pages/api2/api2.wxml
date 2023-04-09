@@ -1,0 +1,7 @@
+<!--pages/api2/api2.wxml-->
+<text>pages/api2/api2.wxml</text>
+
+
+<view>
+<view wx:if="{{name == ''}}">--</view>
+<view wx:else></view>{{name}}</view>-- {{age}}

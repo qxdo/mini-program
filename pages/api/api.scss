@@ -1,0 +1,21 @@
+.box{
+  background: black;
+  width: 200rpx;
+  height: 200rpx;
+
+  .inner{
+    background: pink;
+    height: 100rpx;
+    width: 100rpx;
+    .text{
+      background: #eee;
+      height: 50rpx;
+      width: 50rpx;
+      text{
+      height: 50%;
+      width: 50%;
+      background: blue;
+      }
+    }
+  }
+}

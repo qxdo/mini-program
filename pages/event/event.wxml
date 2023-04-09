@@ -1,0 +1,31 @@
+<!--pages/event/event.wxml-->
+<text>pages/event/event.wxml</text>
+
+<view class="blocks" bindtap="onClick" data-myname="里斯" data-age="28">
+</view>
+
+<view>
+  姓名： {{name}} - 年龄 {{age}}
+</view>
+
+<view class="box" bindtap="onClickBox" style="background: {{backgroundColor}};">
+随机数： {{num}}
+</view>
+
+
+
+-------
+
+<button type="primary" loading="true" bindgetuserinfo="onGetUserInfo" >按钮</button>
+
+
+-------
+<view class="input">
+<input type="text"  style="background: #eee;" placeholder="请输入你的名称"/>
+<button type="primary">提交</button>
+</view>
+
+<view>
+  
+  <textarea style="width: 100%; height: 200rpx; background: #eee;" placeholder="请输入文本内容" value=""/>
+</view>

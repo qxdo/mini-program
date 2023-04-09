@@ -1,0 +1,21 @@
+<!--pages/data/data.wxml-->
+<text>pages/data/data.wxml</text>
+
+<view>
+  My Name is {{name}}
+</view>
+
+<view>
+用户姓名： {{user.name}}
+</view>
+<view>
+用户性别： {{user.gender}}
+</view>
+<view>
+用户年龄： {{user.age}}
+</view>
+
+
+<view wx:if="{{true}}" wx:for="{{user.books}}" wx:for-item="data" wx:for-index="indx" wx:key="idx">
+  用户爱看书籍 第{{indx + 2}}本 ： 书名《 {{data.name}}》 书页厚度 {{data.page}}
+</view>

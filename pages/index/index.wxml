@@ -1,0 +1,23 @@
+<!--index.wxml-->
+
+<MyHeader></MyHeader>
+
+
+<scroll-view class="scroll" scroll-x>
+<view class="row">1</view>
+<view class="row">2</view>
+<view class="row">3</view>
+<view class="row">4</view>
+<view class="row">5</view>
+<view class="row">6</view>
+<view class="row">7</view>
+<view class="row">8</view>
+</scroll-view>
+
+<movable-area style="width: 400rpx; height: 400rpx; background: #ccc;">
+  <movable-view style="width: 150rpx; height: 150rpx; background: green;" direction="all" inertia>
+    <view>
+      demo
+    </view>
+  </movable-view>
+</movable-area>

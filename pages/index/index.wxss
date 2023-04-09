@@ -1,0 +1,15 @@
+/**index.wxss**/
+.scroll{
+  width: 100%;
+  height: 200rpx;
+  background-color: #eeeeee;
+  white-space: nowrap;
+}
+
+.scroll .row {
+  height: 200rpx;
+  width: 200rpx;
+  background: red;
+  margin-right: 10rpx;
+  display: inline-block;
+}

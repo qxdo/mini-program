@@ -1,0 +1,18 @@
+/* pages/event/event.wxss */
+
+.blocks{
+  width: 200rpx;
+  height: 200rpx;
+  background: green;
+}
+
+.box{
+  width: 200rpx;
+  height: 200rpx;
+  margin-left: 20rpx;
+  background: red;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}

@@ -1,0 +1,40 @@
+<!--pages/form/form.wxml-->
+<view class="title">
+  TODO List App
+</view>
+
+<view class="out">
+<view class="list">
+  <view class="row" wx:for="{{dataList}}" wx:key="id">
+    <view class="text">{{index+1}}{{item.title}}</view>
+    <view class="close">
+      <icon type="clear" 
+      size="26"
+      bindtap="onDelete" data-index="{{index}}"/>
+    </view>
+  </view>
+  <view class="count" wx:if="{{dataList.length > 0}}" >一共{{dataList.length}}条评论</view>
+  <view class="count" wx:else>快来记录一些东西吧</view>
+</view>
+<view class="comment">
+<input type="text"   
+    placeholder="请输入评论" 
+    placeholder-style="color:#aaa;font-size:28rpx"
+    model:value="{{iptValue}}"
+    bindconfirm="onSubmit"
+/>
+<button type="primary" 
+disabled="{{!iptValue.length}}"
+bindtap="onSubmit"
+>
+提交</button>
+</view>
+  
+</view>
+
+{{iptValue}}
+
+
+
+
+
